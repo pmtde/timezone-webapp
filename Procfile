@@ -1,1 +1,1 @@
-web: gunicorn timezonebackend:app
+web: gunicorn timezonebackend.wsgi --log-file -
