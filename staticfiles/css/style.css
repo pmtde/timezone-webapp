@@ -137,3 +137,24 @@
 		margin: -90px 0 0 -100px;
 	}
 }
+
+@media screen and (max-width: 400px) {
+	#time {
+		font-size: 5rem;
+		margin-left: 20px;
+		margin-top: -30px;
+	}
+
+	sub {
+		font-size: 20px;
+		margin: -230px 0 0 -100px;
+	}
+
+	.btn {
+		margin-bottom: 40px;
+	}
+
+	.form-control {
+		margin: 5px 0 10px 0;
+	}
+}
