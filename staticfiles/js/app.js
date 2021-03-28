@@ -1,13 +1,13 @@
 const time = document.getElementById('time');
 const formRow = document.querySelector('.form-section');
-// const zone = document.getElementById('inputZone').value;
-const zone = 'Asia';
+const zone = document.getElementById('inputZone');
+// const zone = 'Asia';
 const city = document.getElementById('city');
 
 formRow.addEventListener('submit', showTime);
 
 function showTime(e) {
-  fetch(`http://worldtimeapi.org/api/timezone/${zone}/${city.value}`)
+  fetch(`http://worldtimeapi.org/api/timezone/${zone.value}/${city.value}`)
     .then(res => res.json())
 
     .then(data => {
