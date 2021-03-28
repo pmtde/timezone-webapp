@@ -1,7 +1,6 @@
 const time = document.getElementById('time');
 const formRow = document.querySelector('.form-section');
 const zone = document.getElementById('inputZone');
-// const zone = 'Asia';
 const city = document.getElementById('city');
 
 formRow.addEventListener('submit', showTime);
